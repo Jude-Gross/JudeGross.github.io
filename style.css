@@ -158,14 +158,21 @@ body{
 }
 
 .email{
-    height: 100%;
+    /*! height: 100%; */
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5em;
+    /*! font-size: 1.5em; */
     font-weight: 600;
-    margin-top: 35vh;
-    text-align: center;
+    /*! margin-top: 35vh; */
+    /*! text-align: center; */
+    /*  background-color: red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(1em, 3vw, 2.5em);
 }
+
 
 a:link {
     color: var(--primary-color);
