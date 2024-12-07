@@ -154,7 +154,7 @@ body{
     align-items:center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .email{
@@ -188,8 +188,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items:center;
-    padding-top: 80px;
-    padding-bottom: 20px;
+    padding-top: 100px;
     justify-content: center;
     min-width: 400px;
 }
@@ -204,11 +203,11 @@ img{
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding-bottom: 20px;
     justify-content: center;
     min-width: 400px;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: clamp(0.45em, 1vw, 0.8em);
+    padding-top: 5px;
 }
 
 .descriptionfinal{
@@ -221,11 +220,12 @@ img{
     display: flex;
     flex-direction: column;
     align-items: left;
+    padding-top: 5px;
     padding-bottom: 100px;
     justify-content: center;
     min-width: 400px;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: clamp(0.45em, 1vw, 0.8em);
 }
 
 .content-container{
@@ -271,6 +271,5 @@ img{
     max-width: 2000px;
     min-width: 400px;
     min-height: 326px;
-    padding-top: 80px;
-    padding-bottom: 20px;
+    padding-top: 100px;
 }
